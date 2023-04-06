@@ -12,8 +12,8 @@ use std::env;
 pub async fn run() {
     dotenv().ok();
 
-    let login = env::var("login").unwrap_or("alabulei1".to_string());
-    let owner = env::var("owner").unwrap_or("second-state".to_string());
+    let login = env::var("login").unwrap_or("shrek".to_string());
+    let owner = env::var("owner").unwrap_or("shiqiangguoipinhai".to_string());
     let repo = env::var("repo").unwrap_or("chat-with-chatgpt".to_string());
     let openai_key_name = env::var("openai_key_name").unwrap_or("global.free.trial".to_string());
 
